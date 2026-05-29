@@ -80,6 +80,26 @@ img { display: block; pointer-events: none; user-select: none; -webkit-user-drag
   text-transform: uppercase;
 }
 
+/* Sound hint — shown only when autoplay is blocked */
+#intro-sound-hint {
+  position: absolute; bottom: 22%;
+  display: flex; align-items: center; gap: 8px;
+  opacity: 0; pointer-events: none;
+  cursor: pointer;
+  animation: hint-pulse 2s ease-in-out infinite;
+}
+#intro-sound-hint svg {
+  width: 18px; height: 18px; fill: var(--gold); flex-shrink: 0;
+}
+#intro-sound-hint span {
+  font-family: 'Orbitron', sans-serif; font-size: .46rem;
+  font-weight: 700; letter-spacing: .28em; color: rgba(196,154,42,.7);
+}
+@keyframes hint-pulse {
+  0%, 100% { opacity: var(--hint-op, 0); }
+  50%       { opacity: calc(var(--hint-op, 0) * 0.6); }
+}
+
 #intro-line {
   position: absolute; bottom: 10%;
   width: min(220px, 55vw); height: 1px; background: rgba(255,255,255,.07);
