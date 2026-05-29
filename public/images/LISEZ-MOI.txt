@@ -1,0 +1,22 @@
+═══════════════════════════════════════════════════════
+  ZONTES 368G — PHOTOS À PLACER ICI
+═══════════════════════════════════════════════════════
+
+Enregistrez vos photos avec exactement ces noms de fichiers :
+
+  01-side.jpg          → Profil latéral complet (vert ou blanc)
+  02-front.jpg         → Face avant (phares allumés)
+  03-rear.jpg          → Vue 3/4 arrière
+  04-cockpit.jpg       → Cockpit / handlebars vue du dessus
+  05-wheel-front.jpg   → Roue avant (disque + étrier + fourche)
+  06-handguard.jpg     → Protège-mains détail
+  07-storage.jpg       → Coffre sous-selle ouvert
+  08-console.jpg       → Console avant / vide-poches
+  09-seat.jpg          → Selle vue de dessus
+  10-radiator.jpg      → Radiateur + côté moteur
+
+Formats acceptés : JPG, PNG, WebP
+Résolution recommandée : 1920×1080 minimum
+
+Si une photo est absente, un placeholder s'affiche à la place
+avec le nom du fichier à ajouter.
